@@ -1,0 +1,29 @@
+Nilay Bhatia
+24070123063
+Entc A3
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() 
+{
+    string str1, str2, result;
+
+    cout << "Enter name: ";
+    cin >> str1;
+
+    cout << "Enter surname: ";
+    cin >> str2;
+
+    result = str1 + " " + str2;  
+
+    cout << "Concatenated string: " << result << endl;
+
+    return 0;
+}
+
+Expected Output : 
+Enter Name : Nilay
+Enter surname : Bhatia
+result = Nilay Bhatia
